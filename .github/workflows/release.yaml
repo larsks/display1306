@@ -81,7 +81,7 @@ jobs:
           make BINARY_NAME=display1306-${{ matrix.suffix }}${{ matrix.ext }} build
 
       - name: Upload binary
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v5
         with:
           name: display1306-${{ matrix.suffix }}
           path: display1306-${{ matrix.suffix }}${{ matrix.ext }}
