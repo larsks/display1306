@@ -8,7 +8,7 @@ The tool supports a web-based display mode for testing things out without an act
 
 ## Requirements
 
-- Go 1.23.4 or later
+- Go 1.24.0 or later
 - SSD1306 OLED display connected via I²C
 
 ## Building
